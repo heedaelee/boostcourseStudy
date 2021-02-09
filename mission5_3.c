@@ -28,9 +28,6 @@ int* sort(int n, int arr[])
 {
     int *arrPt = &arr[0];
 
-    // for(int i=0; i<7; i++){
-    //     printf("%d ", *(arrPt+i));
-    // }
 
     for(int i = 0; i<n; i++ ){
         for(int j=0; j<n-i-1;j++){
